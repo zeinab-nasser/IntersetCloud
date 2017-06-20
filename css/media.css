@@ -1,0 +1,35 @@
+/*Media query*/
+@media(max-width:768px){
+    h3{
+        font-size: 40px;
+        margin-top: -65px;
+    }
+    .navbar-inverse .navbar-nav > li > a{
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    .price_table .price_box{
+        padding: 25px;
+        margin-bottom: 10px
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+        max-height: none
+    }
+    h1{
+        text-align: center;
+    }
+    .contain {
+        padding-bottom: 90px;
+    }
+}
+
+/*small screen*/
+@media(min-width:768px) and (max-width:991px){
+    h3{
+        font-size: 40px;
+        margin-top: 0px;
+    }
+    h1{
+        text-align: center
+    }
+}

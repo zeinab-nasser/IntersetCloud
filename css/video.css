@@ -1,0 +1,75 @@
+
+.video__section{
+  position: relative;
+  width: 80%;
+  margin: 10vh auto 0;
+}
+video{
+  max-width: 100%;
+}
+
+
+.video__section:hover .control__play{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.previews{
+  /*margin-top: 1em;*/
+  padding-bottom: 2em;
+}
+.list{
+  margin: 1em 0 0;
+  padding: 0;
+  display: flex;
+}
+.list__item{
+  position: relative;
+  list-style: none;
+  overflow-x: hidden;
+}
+.list__item img{
+  width: 100%;
+  display: block; /* Permet d'éviter l'overflow du :hover*/
+  transition: 0.3s;
+}
+.list__item:hover img{
+  filter: blur(5px);
+}
+.item__link{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 20, 20, 0);
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+  z-index: 1;
+}
+.item__link:hover{
+  background: rgba(255, 20, 20, 0.4);
+}
+.item__link > span {
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0.1s;
+}
+.item__link:hover > span{
+  opacity: 1;
+  top: 50%;
+}
+.video-js .vjs-big-play-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

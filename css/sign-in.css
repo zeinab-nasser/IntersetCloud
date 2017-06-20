@@ -1,0 +1,163 @@
+body {
+    padding-top:60px;
+    color:white;
+}
+.navbar{
+    border: 0px solid transparent; 
+}
+.navbar-inverse {
+    background-color:#251b29
+}
+.navbar-inverse .navbar-brand {
+    color:#995d7c;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color:#995d7c;
+}
+/*logo*/
+.navbar-brand {
+    float: left;
+    height: 55px;
+    padding: 15px 15px;
+    font-size: 36px;
+    line-height: 30px;
+    padding-right: 40px;
+}
+.navbar-brand .logo {color:white}
+/*links*/
+.navbar-inverse .navbar-nav > li > a,.dropdown-menu > li > a {
+    color: #939393;
+    font-size: 16px;
+    transition:padding .5s ease
+}
+.navbar-nav > li > a {
+    padding-top: 21px;
+    padding-bottom: 19px;
+}
+
+.navbar-nav .glyphicon {
+    padding-right: 6px;
+}
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color:#bb7da6
+}
+/*dropdown-menu*/
+.dropdown-menu {
+    background-color:#251b29
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {
+    background-color:#bb7da6;
+    color:white;
+    padding-left:30px
+}
+.dropdown-menu .divider{background-color:#3f3f3f}
+
+.navbar-toggle{margin-top: 14px}
+
+/*end navbar*/
+
+.form-sign {
+    background-color: #86627a;
+    background-image: url('../img/overlay.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.form-sign .sign-in h1{
+    font-size :50px;
+    padding-top:90px
+}
+.form-sign span {
+    color: darkgray
+}
+.form-sign .sign-in {
+    background: rgba(134, 98, 122, .6);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 65px;
+    text-align: center;
+}
+.form-sign .sign-up {
+    background: rgba(134, 98, 122, .6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 68px;
+    padding-bottom: 35px;
+}
+
+.form-sign .form {
+    padding-bottom: 30px
+}
+.form-sign .form-control {
+    padding: 20px 20px;
+    margin-top :2px
+}
+.form-sign .btn {
+    margin-top :10px;
+    margin-bottom :10px;
+    width:100%;
+    background-color: #35223D;
+    padding: 10px 10px;
+    font-weight: bold;
+    opacity: .8;
+}
+.form-sign .btn:hover,.form-sign .btn:focus{
+    opacity: .9;
+    color: white
+}
+
+.form-sign .a-right,.form-sign .a-left{
+    margin-left: 30px;
+}
+.form-sign a{
+    color: #684277;
+}
+
+.form-sign a:hover,.form-sign a:focus{
+    color: #080808;
+}
+.sign-up .face:hover {
+    background-color:#33518e;
+    color:white
+}
+.sign-up .face {
+    background-color:#3c5a98;
+    font-size:15px;
+}
+.sign-up .face i{
+    font-size:20px;
+    padding-right:5px
+}
+
+/**********************************/
+/*footer*/
+.footer{
+    padding-top:5px;
+    padding-bottom: 0px;
+    background-color:#251b29;
+    display:block;
+    color:darkgray;
+    border-top:4px solid #55446f;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.footer ul{list-style: none}
+.footer ul li{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.footer .left{
+    float: left
+}
+.footer .right{
+    float:right;
+    font-size: 15px;
+    margin-top: 10px
+}

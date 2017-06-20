@@ -1,0 +1,213 @@
+body {
+    padding-top:57px;
+    color:white;
+}
+.navbar{
+    border: 0px solid transparent; 
+}
+.navbar-inverse {
+    background-color:#251b29
+}
+.navbar-inverse .navbar-brand {
+    color:#995d7c;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color:#995d7c;
+}
+/*logo*/
+.navbar-brand {
+    float: left;
+    height: 55px;
+    padding: 15px 15px;
+    font-size: 36px;
+    line-height: 30px;
+    padding-right: 40px;
+}
+.navbar-brand .logo {color:white}
+/*links*/
+.navbar-inverse .navbar-nav > li > a,.dropdown-menu > li > a {
+    color: #939393;
+    font-size: 16px;
+    transition:padding .5s ease
+}
+.navbar-nav > li > a {
+    padding-top: 21px;
+    padding-bottom: 19px;
+}
+
+.navbar-nav .glyphicon {
+    padding-right: 6px;
+}
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color:#bb7da6
+}
+/*dropdown-menu*/
+.dropdown-menu {
+    background-color:#251b29
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {
+    background-color:#bb7da6;
+    color:white;
+    padding-left:30px
+}
+.dropdown-menu .divider{background-color:#3f3f3f}
+
+.navbar-toggle{margin-top: 14px}
+.button-signin,.button-signin:hover,.button-signin:focus{
+    background-color: whitesmoke;
+    color: dimgrey;
+    margin-top: 13px;
+    border-color: whitesmoke;
+    margin-right: 5px;
+}
+.button-signup,.button-signup:hover ,.button-signup:focus{
+    background-color: #bb7da6;
+    color: white;
+    margin-top: 13px;
+    border-color: #bb7da6
+}
+/*end navbar*/
+/*************************************************/
+
+/*contain*/
+body {
+    background-image: url(../img/overlay.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-attachment: fixed;
+    width:100%;
+}
+.overlay{
+    background: rgba(134, 98, 122, .6);
+}
+.contain {
+    padding-top: 100px;
+    padding-bottom: 123px;
+}
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.contain .center{
+    padding-top: 54px;
+    text-align: center
+}
+.contain .center h3{
+    margin-bottom: 23px;
+    font-size: 40px
+}
+.contain .center .form-control{
+    padding:20px;
+    background-color: black;
+    opacity:.5;
+    border:1px solid #251b29
+}
+.contain .center .go {
+    padding:10px;
+    background-color: #251b29;
+    color:white
+}
+
+.contain .center .btn-primary:hover,.contain .center .btn-default:hover,.contain .center .btn-success:hover{
+    color: #f5f5f5;
+    background-color: #995d7c;
+    border-color: #adadad;
+}
+.contain .center .btn-default, .contain .center .btn-primary, .contain .center .btn-success {
+    color: black;
+    background-color: rgba(252, 248, 227, 0.84);
+    border-color: rgba(252, 248, 227, 0.84);
+}
+
+.contain .center .field .form-group input[type="checkbox"] {
+    display: none;
+}
+
+.contain .center .field  .form-group input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+}
+
+.contain .center .field .form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.contain .center .field .form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.contain .center .field .form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.contain .center .field .form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+.contain .center .check{
+    padding-right: 20px
+}
+.contain .center .field {
+    margin-top:15px;
+    margin-bottom:15px
+}
+.contain .center .footer ul{ 
+    list-style: none;
+    margin-left: -50px;
+}
+.contain .center .footer ul li{
+    display: inline-block ;
+    font-size :40px;
+    color: #251b29
+}
+
+
+/**********************/
+
+.contain .sign-in .form-control {
+    padding: 20px 15px;
+    margin-bottom:2px;
+    background-color: #f5f5f5;
+}
+.contain .sign-in .form-control:hover,.contain .sign-in .form-control:focus {
+    border-color: #bb7da6;}
+.contain .sign-in .lead {
+    color:#ccc;
+}
+.contain .sign-in .btn {
+    width:100%;
+    padding:10px;
+}
+.contain .sign-in .twi:hover{
+    opacity: .9;
+    color: white
+}
+.contain .sign-in .face:hover {
+    background-color:#33518e;
+    color:white
+}
+.contain .sign-in .or {
+    padding-left:50%
+}
+.contain .sign-in .face {
+    background-color:#3c5a98;
+    font-size:15px;
+}
+.contain .sign-in .face i{
+    font-size:20px;
+    padding-right:5px
+}
+.contain .sign-in .twi {
+    background-color: #251b29;
+    opacity:.8;
+    font-size:15px;
+    margin-top: 5px
+}
+
+
+
+
+
+
+
+
